@@ -1,0 +1,28 @@
+# Don't touch version!!
+version: 2.0
+
+check-for-updates: true
+
+# Languages codes:
+# These codes need to be the same as the name of the language file in folder /MOTD+/languages
+# Example:
+# en-US.yml --> Code en-US
+# es-ES.yml --> Code es-ES
+languages:
+- en-US
+- es-ES
+
+# This is the default language for MOTD+
+language: en-US
+
+prefix: "&7[&eMOTD&c+&7]"
+
+maintenance-mode: false
+
+server-motd:
+    line-1: "&9--> &7[&eMOTD&c+&7] &9<--"
+    line-2: "&7Server MOTD and Maintenance mode"
+
+maintenance-motd:
+    line-1: "&9--> &7[&eMOTD&c+&7] &9<--"
+    line-2: "&cThe server is in maintenance"
