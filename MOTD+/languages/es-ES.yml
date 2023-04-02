@@ -1,0 +1,48 @@
+# Nombre de idioma
+language-name: Español
+
+admin-help:
+    general:
+    - "&e/motd+ help &8» &7Muestra la ayuda de MOTD+"
+    - "&e/motd+ reload &8» &7Recarga el plugin"
+    - "&e/motd+ language <language> &8» &7Cambia el idioma del plugin"
+    - "&e/motd+ setline <1/2> <motd> &8» &7Establece el motd del servidor"
+    - "&e/motd+ info &8» &7Muestra el motd actual"
+    - "&e/maintenance help &8» &7Muestra la ayuda del modo mantenimiento"
+    maintenance:
+    - "&e/maintenance help &8» &7Muestra la ayuda del modo mantenimiento"
+    - "&e/maintenance <on/off> &8» &7Cambia el modo mantenimiento del servidor"
+    - "&e/maintenance list &8» &7Muestra la lista de usuarios admitidos"
+    - "&e/maintenance add <user> &8» &7Añade al usuario a la lista"
+    - "&e/maintenance remove <user> &8» &7Elimina al usuario de la lista"
+    - "&e/maintenance setline <1/2> <motd> &8» &7Establece el motd de mantenimiento"
+    - "&e/motd+ help &8» &7Muestra la ayuda de MOTD+"
+
+# Mensajes MOTD+ - Puedes eliminar las lineas vacias y los comentarios
+messages:
+    no-permission: "&cNo tienes permiso para usar este comando"
+
+admin-messages:
+    general:
+        error: "&cError. Usa &e/motd+ help"
+        reload: "&aEl plugin ha sido recargado"
+        error-no-line-number: "&cElige el numero de linea"
+        error-no-motd: "&cEscribe el motd"
+        set-motd: "&aHas puesto el motd del servidor correctamente"
+    maintenance:
+        error: "&cError. Usa &e/maintenance help"
+        help-add: "&cAñade el usuario que deseas añadir"
+        help-remove: "&cAñade el usuario que deseas eliminar"
+        error-user-exist: "&cError. El usuario ya existe"
+        error-user-dont-exist: "&cError. El usuario no existe"
+        user-added: "&aUsuario añadido correctamente"
+        user-removed: "&aUsuario eliminado correctamente"
+        enable: "&eModo mantenimiento &cactivado"
+        disable: "&eModo mantenimiento &adesactivado"
+        set-motd: "&aHas puesto el motd de mantenimiento correctamente"
+        player-kicked: "&cEl servidor esta en mantenimiento"
+    language:
+        error-languagesapi: "&cError. La opción de soporte multi-idioma &eLanguagesAPI &cesta habilitada."
+        help-language: "&cAñade el idioma que deseas cambiar"
+        change-language: "&aIdioma cambiado a: &e"
+        language-dont-exist: "&cEl idioma especificado no existe"
