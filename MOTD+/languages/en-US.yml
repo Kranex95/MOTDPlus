@@ -1,0 +1,48 @@
+# Language name
+language-name: English
+
+admin-help:
+    general:
+    - "&e/motd+ help &8» &7Shows the help"
+    - "&e/motd+ reload &8» &7Reload the plugin"
+    - "&e/motd+ language <language> &8» &7Change the language of the plugin"
+    - "&e/motd+ setline <1/2> <motd> &8» &7Set the server's motd"
+    - "&e/motd+ info &8» &7Shows the current motd"
+    - "&e/maintenance help &8» &7Shows the help of maintenance mode"
+    maintenance:
+    - "&e/maintenance help &8» &7Shows the help of maintenance mode"
+    - "&e/maintenance <on/off> &8» &7Change the maintenance mode of server"
+    - "&e/maintenance list &8» &7Shows the list with the names of all the admitted ones"
+    - "&e/maintenance add <user> &8» &7Add the user to the list"
+    - "&e/maintenance remove <user> &8» &7Remove the user from the list"
+    - "&e/maintenance setline <1/2> <motd> &8» &7Set the maintenance motd"
+    - "&e/motd+ help &8» &7Shows the help of MOTD+"
+
+# MOTD+ Messages - You can remove empty lines and comments
+messages:
+    no-permission: "&cYou don't have permission for use this command"
+
+admin-messages:
+    general:
+        error: "&cError. Use &e/motd+ help"
+        reload: "&aThe plugin has been reloaded"
+        error-no-line-number: "&cChoose the line number"
+        error-no-motd: "&cWrite the motd"
+        set-motd: "&aYou have put the server's motd correctly"
+    maintenance:
+        error: "&cError. Use &e/maintenance help"
+        help-add: "&cAdd the user you want to add"
+        help-remove: "&cAdd the user you want to remove"
+        error-user-exist: "&cError. The user exist"
+        error-user-dont-exist: "&cError. The user don't exist"
+        user-added: "&aUser added successfully"
+        user-removed: "&aUser removed successfully"
+        enable: "&eMaintenance mode &cactivated"
+        disable: "&eMaintenance mode &adeactivated"
+        set-motd: "&aYou have set the maintenance motd correctly"
+        player-kicked: "&cThe server is in maintenance"
+    language:
+        error-languagesapi: "&cError. The &eLanguagesAPI &cmulti-language support &coption is enabled."
+        help-language: "&cAdd the language that you want change"
+        change-language: "&aLanguage changed to: &e"
+        language-dont-exist: "&cThe specified language don't exist"
