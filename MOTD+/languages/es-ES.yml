@@ -8,6 +8,9 @@ admin-help:
     - "&e/motd+ language <language> &8» &7Cambia el idioma del plugin"
     - "&e/motd+ setline <1/2> <motd> &8» &7Establece el motd del servidor"
     - "&e/motd+ info &8» &7Muestra el motd actual"
+    - "&e/motd+ news &8» &7Muestra el mensaje establecido para el apartado de noticias"
+    - "&e/motd+ news <on/off> &8» &7Activa o desactiva el apartado de noticias"
+    - "&e/motd+ setnews <news> &8» &7Establece el mensaje del apartado de noticias"
     - "&e/maintenance help &8» &7Muestra la ayuda del modo mantenimiento"
     maintenance:
     - "&e/maintenance help &8» &7Muestra la ayuda del modo mantenimiento"
@@ -29,6 +32,10 @@ admin-messages:
         error-no-line-number: "&cElige el numero de linea"
         error-no-motd: "&cEscribe el motd"
         set-motd: "&aHas puesto el motd del servidor correctamente"
+        news-enable: "&eEl apartado de noticias ha sido &aactivado"
+        news-disable: "&eEl apartado de noticias ha sido &cdesactivado"
+        set-news: "&aEl mensaje de noticias ha sido establecido"
+        error-no-news: "&cEscribe la noticia que quieres mostrar"
     maintenance:
         error: "&cError. Usa &e/maintenance help"
         help-add: "&cAñade el usuario que deseas añadir"
