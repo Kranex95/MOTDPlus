@@ -26,3 +26,7 @@ server-motd:
 maintenance-motd:
     line-1: "&9--> &7[&eMOTD&c+&7] &9<--"
     line-2: "&cThe server is in maintenance"
+
+news:
+    enable: true
+    message: "&dMessage for server announcements. This message can be edited in the config.yml file."
